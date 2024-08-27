@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#container {
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#scanner {
+    text-align: center;
+    display: none;
+}
+
+#scanner img {
+    max-width: 100%;
+    height: auto;
+}
+
+#thank-you {
+    text-align: center;
+    display: none;
+}
